@@ -8,7 +8,9 @@ body{
    padding: 1.2rem 12rem 5rem 9rem;
 }
 
-
+img{
+    max-width: 100%
+}
 
 @font-face {
     font-family: ;
@@ -211,7 +213,7 @@ section{
    } 
 
    .navigation{
-    padding: 10px 5px;
+    padding: 9px 2px;
     margin-bottom: 0;
     /* padding-top: 10px; */
     /* padding-left: 5px;
@@ -221,21 +223,27 @@ section{
    }
 
     .menu{
-        width: 30px;
+        width: 25px;
     }
     .image-icons{
-            margin-left: 50px;
+            margin-left: 19px;
             display: flex;
             /* gap: 1.2rem; */
         
+    }
+
+    .cart{
+        width: 25px;
+        margin-top: 3px;
     }
     .menu-logo{
         display: flex;
         gap: 10px;
     }
     .logo{
-        width: 135px;
-        height: 25px;
+        margin-top: 5px;
+        width: 120px;
+        height: 20px;
     }
     section{
         display: flex;
@@ -251,7 +259,7 @@ section{
         height: 350px;
         margin: 0;
         position: relative;
-        max-width: 100%;
+        
     }
 
     .Limited-edition{
