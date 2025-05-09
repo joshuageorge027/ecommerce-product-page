@@ -297,7 +297,7 @@ section{
         height: 28px;
         position: absolute;
         left: 86%;
-        top: 25%;
+        top: 30%;
         
 
     }
@@ -315,7 +315,7 @@ section{
         height: 28px;
         position: absolute;
         left: 3.5%;
-        top: 25%; 
+        top: 30%; 
     }
 
     .icon-next{
@@ -341,6 +341,11 @@ section{
         margin-left: 15px;
         font-size: 17px;
     
+    }
+
+    .next-arrows,
+    .previous-arrows{
+        display: flex;
     }
 
     .numbers-and-prices{
